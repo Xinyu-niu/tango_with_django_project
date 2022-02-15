@@ -1,7 +1,7 @@
-{% extengds 'rango/base.html' %}
-{% load staticfiels %}
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
 
-{% block body_block %}
+{% block title_block %}
 Add a Category
 {% endblock %}
 
@@ -21,5 +21,5 @@ Add a Category
                 <input type="submit" name="submit" value="Create Category" />
     </form>
 </div>
-{% endblock %]}
+{% endblock %}
 
